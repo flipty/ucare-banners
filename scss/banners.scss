@@ -1,14 +1,13 @@
 $gold: #f0bd48;
 $blue: #001f5b;
+$white: #FFFFFF;
 
 .banner-container {
+  //this whole container is temporary
   display: flex;
   flex-flow: row wrap;
   div.ucareb {
     margin: 10px;
-    &:hover {
-      cursor: pointer;
-    }
   }
 }
 
@@ -29,6 +28,7 @@ $blue: #001f5b;
       height: 50px;
       top: 20px;
       left: 20px;
+      transition: all 250ms;
     }
     .logo-spark {
       width: 230px;
@@ -36,6 +36,7 @@ $blue: #001f5b;
       position: absolute;
       right: 0;
       bottom: 0;
+      transition: all 500ms;
     }
     .text-jumper {
       color: $blue;
@@ -43,13 +44,16 @@ $blue: #001f5b;
       position: absolute;
       line-height: 1.2em;
       transition: opacity 500ms;
-      span.active {
-        color: white;
+      > span {
+        transition: all 250ms;
+        &.active {
+          color: $white;
+        }
       }
     }
     span.button {
       background: $blue;
-      color: white;
+      color: $white;
       text-decoration: none;
       border-radius: 8px;
       padding: 0.5em 1.5em;
