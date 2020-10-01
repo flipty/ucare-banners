@@ -36,36 +36,63 @@
   transition: all 250ms;
 }
 
-/* line 33, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
+/* line 32, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
+.ucareb .inner .logo-text .logo-hide {
+  background: #f0bd48;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  transition: all 750ms;
+}
+
+/* line 39, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
+.ucareb .inner .logo-text .logo-hide.active {
+  width: 1px !important;
+}
+
+/* line 44, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
 .ucareb .inner .logo-spark {
   width: 230px;
   height: 230px;
   position: absolute;
   right: 0;
   bottom: 0;
-  transition: all 500ms;
+  transition: all 1000ms;
 }
 
-/* line 41, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
+/* line 51, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
+.ucareb .inner .logo-spark.inactive {
+  margin-right: -230px;
+  margin-bottom: -230px;
+  transform: rotate(270deg);
+}
+
+/* line 57, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
 .ucareb .inner .text-jumper {
   color: #001f5b;
   text-decoration: none !important;
   position: absolute;
   line-height: 1.2em;
-  transition: opacity 500ms;
+  transition: opacity 1000ms;
 }
 
-/* line 47, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
+/* line 63, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
 .ucareb .inner .text-jumper > span {
   transition: all 250ms;
 }
 
-/* line 49, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
+/* line 65, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
 .ucareb .inner .text-jumper > span.active {
   color: #FFFFFF;
 }
 
-/* line 54, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
+/* line 69, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
+.ucareb .inner .text-jumper.inactive {
+  opacity: 0;
+}
+
+/* line 73, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
 .ucareb .inner span.button {
   background: #001f5b;
   color: #FFFFFF;
@@ -73,28 +100,41 @@
   border-radius: 8px;
   padding: 0.5em 1.5em;
   position: absolute;
+  opacity: 1;
+  transition: opacity 1000ms;
 }
 
-/* line 66, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
+/* line 82, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
+.ucareb .inner span.button.inactive {
+  opacity: 0;
+}
+
+/* line 89, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
 .ucareb#b728x90 .inner {
   width: 728px;
   height: 90px;
 }
 
-/* line 69, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
+/* line 92, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
 .ucareb#b728x90 .inner .logo-spark {
   width: 93px;
   right: -11px;
   bottom: -150px;
 }
 
-/* line 74, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
+/* line 97, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
 .ucareb#b728x90 .inner .logo-text {
   width: 170px;
   top: 35px;
 }
 
-/* line 78, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
+/* line 100, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
+.ucareb#b728x90 .inner .logo-text .logo-hide {
+  width: 170px;
+  height: 30px;
+}
+
+/* line 105, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
 .ucareb#b728x90 .inner .text-jumper {
   font-size: 25px;
   width: 300px;
@@ -102,32 +142,38 @@
   top: 15px;
 }
 
-/* line 84, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
+/* line 111, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
 .ucareb#b728x90 .inner span.button {
   left: 530px;
   top: 35px;
   font-size: 13px;
 }
 
-/* line 92, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
+/* line 119, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
 .ucareb#b300x600 .inner {
   width: 300px;
   height: 600px;
 }
 
-/* line 95, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
+/* line 122, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
 .ucareb#b300x600 .inner .logo-text {
   width: 160px;
 }
 
-/* line 98, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
+/* line 124, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
+.ucareb#b300x600 .inner .logo-text .logo-hide {
+  width: 160px;
+  height: 30px;
+}
+
+/* line 129, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
 .ucareb#b300x600 .inner .logo-spark {
   width: 188px;
   right: -35px;
   bottom: -69px;
 }
 
-/* line 103, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
+/* line 134, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
 .ucareb#b300x600 .inner .text-jumper {
   font-size: 38px;
   top: 95px;
@@ -135,20 +181,20 @@
   width: 200px;
 }
 
-/* line 109, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
+/* line 140, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
 .ucareb#b300x600 .inner span.button {
   top: 390px;
   left: 25px;
   font-size: 15px;
 }
 
-/* line 117, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
+/* line 148, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
 .ucareb#b300x250 .inner {
   width: 300px;
   height: 250px;
 }
 
-/* line 120, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
+/* line 151, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
 .ucareb#b300x250 .inner .logo-spark {
   width: 140px;
   height: 140px;
@@ -156,12 +202,18 @@
   right: -21px;
 }
 
-/* line 125, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
+/* line 156, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
 .ucareb#b300x250 .inner .logo-text {
   width: 140px;
 }
 
-/* line 128, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
+/* line 158, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
+.ucareb#b300x250 .inner .logo-text .logo-hide {
+  width: 140px;
+  height: 30px;
+}
+
+/* line 163, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
 .ucareb#b300x250 .inner .text-jumper {
   font-size: 24px;
   top: 60px;
@@ -169,33 +221,39 @@
   width: 215px;
 }
 
-/* line 134, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
+/* line 169, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
 .ucareb#b300x250 .inner span.button {
   top: 160px;
   left: 15px;
   font-size: 12px;
 }
 
-/* line 142, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
+/* line 177, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
 .ucareb#b160x600 .inner {
   width: 160px;
   height: 600px;
 }
 
-/* line 145, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
+/* line 180, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
 .ucareb#b160x600 .inner .logo-text {
   width: 140px;
   left: 10px;
 }
 
-/* line 149, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
+/* line 183, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
+.ucareb#b160x600 .inner .logo-text .logo-hide {
+  width: 140px;
+  height: 30px;
+}
+
+/* line 188, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
 .ucareb#b160x600 .inner .logo-spark {
   width: 171px;
   right: -34px;
   bottom: -84px;
 }
 
-/* line 154, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
+/* line 193, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
 .ucareb#b160x600 .inner .text-jumper {
   font-size: 28px;
   top: 115px;
@@ -203,20 +261,20 @@
   width: 128px;
 }
 
-/* line 160, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
+/* line 199, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
 .ucareb#b160x600 .inner span.button {
   top: 330px;
   left: 15px;
   font-size: 13px;
 }
 
-/* line 168, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
+/* line 207, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
 .ucareb#b970x250 .inner {
   width: 970px;
   height: 250px;
 }
 
-/* line 171, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
+/* line 210, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
 .ucareb#b970x250 .inner .text-jumper {
   font-size: 43px;
   top: 90px;
@@ -224,38 +282,50 @@
   width: 530px;
 }
 
-/* line 177, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
+/* line 217, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
+.ucareb#b970x250 .inner .logo-text .logo-hide {
+  width: 200px;
+  height: 50px;
+}
+
+/* line 222, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
 .ucareb#b970x250 .inner .logo-spark {
   right: -32px;
   bottom: -23px;
 }
 
-/* line 181, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
+/* line 226, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
 .ucareb#b970x250 .inner span.button {
   right: 213px;
   bottom: 76px;
   font-size: 18px;
 }
 
-/* line 189, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
+/* line 234, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
 .ucareb#b320x50 .inner {
   width: 320px;
   height: 50px;
 }
 
-/* line 192, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
+/* line 237, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
 .ucareb#b320x50 .inner .logo-text {
   width: 95px;
   left: 10px;
   top: 17px;
 }
 
-/* line 197, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
+/* line 241, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
+.ucareb#b320x50 .inner .logo-text .logo-hide {
+  width: 95px;
+  height: 20px;
+}
+
+/* line 246, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
 .ucareb#b320x50 .inner .logo-spark {
   display: none;
 }
 
-/* line 200, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
+/* line 249, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
 .ucareb#b320x50 .inner .text-jumper {
   font-size: 12px;
   width: 192px;
@@ -263,7 +333,7 @@
   top: 12px;
 }
 
-/* line 206, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
+/* line 255, ../../../../../Users/tesch/Development/ucare-banners/scss/banners.scss */
 .ucareb#b320x50 .inner span.button {
   display: inline;
   padding: inherit;

@@ -17,139 +17,145 @@
 <div class="banner-container">
 
 <a href="#">
-	<div class="ucareb" id="b970x250">
+	<div class="ucareb" id="b970x250" data-text-delay="2000" data-spark-delay="1000">
 		<div class="inner">
 			<div class="logo-text">
+        <div class="logo-hide" data-duration="1000" data-reveal="500"></div>
 				<img src="logo.svg" alt="ucare">
 			</div>
-			<div class="logo-spark">
+			<div class="logo-spark inactive">
 				<img src="spark.svg" alt="ucare">
 			</div>
-			<div class="text-jumper">
-				<span class="step-0" data-duration="500">Medicare </span>
-				<span class="step-1" data-duration="500">plans </span>
-				<span class="step-2" data-duration="250">for </span>
-				<span class="step-3" data-duration="500">every </span>
-				<span class="step-4" data-duration="500">lifestyle </span>
-				<span class="step-5" data-duration="250">and </span>
-				<span class="step-6" data-duration="500">budget</span>
+			<div class="text-jumper inactive">
+        <span data-timeline="3000">Medicare </span>
+				<span data-timeline="3500">plans </span>
+				<span data-timeline="4000">for </span>
+				<span data-timeline="4500">every </span>
+				<span data-timeline="5000">lifestyle </span>
+				<span data-timeline="5500">and </span>
+				<span data-timeline="6000">budget</span>
 			</div>
-			<span class="button">Shop now</span>
+			<span class="button inactive">Shop now</span>
 		</div>
 	</div>
 </a>
 
 <a href="#">
-	<div class="ucareb" id="b300x600">
+	<div class="ucareb" id="b300x600" data-text-delay="2000" data-spark-delay="1000">
 		<div class="inner">
 			<div class="logo-text">
+        <div class="logo-hide" data-duration="1000" data-reveal="500"></div>
 				<img src="logo.svg" alt="ucare">
 			</div>
-			<div class="logo-spark">
+			<div class="logo-spark inactive">
 				<img src="spark.svg" alt="ucare">
 			</div>
-			<div class="text-jumper">
-				<span class="step-0" data-duration="500">Medicare </span>
-				<span class="step-1" data-duration="500">plans </span>
-				<span class="step-2" data-duration="250">for </span>
-				<span class="step-3" data-duration="500">every </span>
-				<span class="step-4" data-duration="500">lifestyle </span>
-				<span class="step-5" data-duration="250">and </span>
-				<span class="step-6" data-duration="500">budget</span>
+			<div class="text-jumper inactive">
+        <span data-timeline="3000">Medicare </span>
+				<span data-timeline="3500">plans </span>
+				<span data-timeline="4000">for </span>
+				<span data-timeline="4500">every </span>
+				<span data-timeline="5000">lifestyle </span>
+				<span data-timeline="5500">and </span>
+				<span data-timeline="6000">budget</span>
 			</div>
-			<span class="button">Shop now</span>
+			<span class="button inactive">Shop now</span>
 		</div>
 	</div>
 </a>
 
 <a href="#">
-	<div class="ucareb" id="b160x600">
+	<div class="ucareb" id="b160x600" data-text-delay="2000" data-spark-delay="1000">
 		<div class="inner">
 			<div class="logo-text">
+        <div class="logo-hide" data-duration="1000" data-reveal="500"></div>
 				<img src="logo.svg" alt="ucare">
 			</div>
-			<div class="logo-spark">
+			<div class="logo-spark inactive">
 				<img src="spark.svg" alt="ucare">
 			</div>
-			<div class="text-jumper">
-				<span class="step-0" data-duration="500">Medicare </span>
-				<span class="step-1" data-duration="500">plans </span>
-				<span class="step-2" data-duration="250">for </span>
-				<span class="step-3" data-duration="500">every </span>
-				<span class="step-4" data-duration="500">lifestyle </span>
-				<span class="step-5" data-duration="250">and </span>
-				<span class="step-6" data-duration="500">budget</span>
+			<div class="text-jumper inactive">
+        <span data-timeline="3000">Medicare </span>
+				<span data-timeline="3500">plans </span>
+				<span data-timeline="4000">for </span>
+				<span data-timeline="4500">every </span>
+				<span data-timeline="5000">lifestyle </span>
+				<span data-timeline="5500">and </span>
+				<span data-timeline="6000">budget</span>
 			</div>
-			<span class="button">Shop now</span>
+			<span class="button inactive">Shop now</span>
 		</div>
 	</div>
 </a>
 
 <a href="#">
-	<div class="ucareb" id="b300x250">
+	<div class="ucareb" id="b300x250" data-text-delay="2000" data-spark-delay="1000">
 		<div class="inner">
 			<div class="logo-text">
+        <div class="logo-hide" data-duration="1000" data-reveal="500"></div>
 				<img src="logo.svg" alt="ucare">
 			</div>
-			<div class="logo-spark">
+			<div class="logo-spark inactive">
 				<img src="spark.svg" alt="ucare">
 			</div>
-			<div class="text-jumper">
-				<span class="step-0" data-duration="500">Medicare </span>
-				<span class="step-1" data-duration="500">plans </span>
-				<span class="step-2" data-duration="250">for </span>
-				<span class="step-3" data-duration="500">every </span>
-				<span class="step-4" data-duration="500">lifestyle </span>
-				<span class="step-5" data-duration="250">and </span>
-				<span class="step-6" data-duration="500">budget</span>
+			<div class="text-jumper inactive">
+        <span data-timeline="3000">Medicare </span>
+				<span data-timeline="3500">plans </span>
+				<span data-timeline="4000">for </span>
+				<span data-timeline="4500">every </span>
+				<span data-timeline="5000">lifestyle </span>
+				<span data-timeline="5500">and </span>
+				<span data-timeline="6000">budget</span>
 			</div>
-			<span class="button">Shop now</span>
+			<span class="button inactive">Shop now</span>
 		</div>
 	</div>
 </a>
 
 <a href="#">
-	<div class="ucareb" id="b728x90">
+	<div class="ucareb" id="b728x90" data-text-delay="2000" data-spark-delay="1000">
 		<div class="inner">
 			<div class="logo-text">
+        <div class="logo-hide" data-duration="1000" data-reveal="500"></div>
 				<img src="logo.svg" alt="ucare">
 			</div>
-			<div class="logo-spark">
+			<div class="logo-spark inactive">
 				<img src="spark.svg" alt="ucare">
 			</div>
-			<div class="text-jumper">
-				<span class="step-0" data-duration="500">Medicare </span>
-				<span class="step-1" data-duration="500">plans </span>
-				<span class="step-2" data-duration="250">for </span>
-				<span class="step-3" data-duration="500">every </span>
-				<span class="step-4" data-duration="500">lifestyle </span>
-				<span class="step-5" data-duration="250">and </span>
-				<span class="step-6" data-duration="500">budget</span>
+			<div class="text-jumper inactive">
+        <span data-timeline="3000">Medicare </span>
+				<span data-timeline="3500">plans </span>
+				<span data-timeline="4000">for </span>
+				<span data-timeline="4500">every </span>
+				<span data-timeline="5000">lifestyle </span>
+				<span data-timeline="5500">and </span>
+				<span data-timeline="6000">budget</span>
 			</div>
-			<span class="button">Shop now</span>
+			<span class="button inactive">Shop now</span>
 		</div>
 	</div>
 </a>
 
 <a href="#">
-	<div class="ucareb" id="b320x50">
+	<div class="ucareb" id="b320x50" data-text-delay="2000" data-spark-delay="1000">
 		<div class="inner">
 			<div class="logo-text">
+        <div class="logo-hide" data-duration="1000" data-reveal="500"></div>
 				<img src="logo.svg" alt="ucare">
 			</div>
-			<div class="logo-spark">
+			<div class="logo-spark inactive">
 				<img src="spark.svg" alt="ucare">
 			</div>
-			<div class="text-jumper">
-				<span class="step-0" data-duration="500">Medicare </span>
-				<span class="step-1" data-duration="500">plans </span>
-				<span class="step-2" data-duration="250">for </span>
-				<span class="step-3" data-duration="500">every </span>
-				<span class="step-4" data-duration="500">lifestyle </span>
-				<span class="step-5" data-duration="250">and </span>
-				<span class="step-6" data-duration="500">budget</span>
+			<div class="text-jumper inactive">
+        <span data-timeline="3000">Medicare </span>
+				<span data-timeline="3500">plans </span>
+				<span data-timeline="4000">for </span>
+				<span data-timeline="4500">every </span>
+				<span data-timeline="5000">lifestyle </span>
+				<span data-timeline="5500">and </span>
+				<span data-timeline="6000">budget</span>
 			</div>
-			<span class="button">Learn more</span>
+			<span class="button inactive">Learn more</span>
 		</div>
 	</div>
 </a>
