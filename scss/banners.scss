@@ -22,6 +22,7 @@ $white: #FFFFFF;
     text-decoration: none !important;
     background: $gold;
     overflow: hidden;
+    contain: strict;
     .logo-text {
       position: absolute;
       width: 200px;
