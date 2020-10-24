@@ -15,12 +15,15 @@ $(document).ready(function(){
 
     //text
     var $textJumper = $thisBanner.find('.text-jumper');
+    var $tagline = $thisBanner.find('.tagline');
     var $button = $thisBanner.find('.button');
+
     //reveal the text and button
     setTimeout(function() {
-      $textJumper.toggleClass('inactive');
+      $tagline.toggleClass('inactive');
       $button.toggleClass('inactive');
     }, $textDelay);
+
     $textJumper.each(function(){
       var $word = $(this).find('span');
       $word.each(function(){
@@ -28,11 +31,11 @@ $(document).ready(function(){
         var $timeline = $this.data('timeline');
         var $duration = $timeline + 500;
         setTimeout(function() {
-          $this.toggleClass('active');
+          $this.addClass('active');
         }, $timeline);
-        setTimeout(function() {
-          $this.toggleClass('active');
-        }, $duration);
+        // setTimeout(function() {
+        //   $this.toggleClass('active');
+        // }, $duration);
       });
     });//tj each
 

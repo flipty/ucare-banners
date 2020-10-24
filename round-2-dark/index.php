@@ -15,145 +15,139 @@
   <div class="banner-container">
 
   <a href="https://ucare.org/medicare">
-  	<div class="ucareb" id="b970x250" data-text-delay="1000" data-logo-delay="100">
+  	<div class="ucareb" id="b970x250" data-text-delay="3500" data-logo-delay="100">
   		<div class="inner">
   			<div class="logo-text">
-          <div class="logo-hide" data-logo-reveal="500"></div>
-  				<img src="logo.svg" alt="ucare">
+          <div class="logo-hide" data-logo-reveal="1000"></div>
+  				<img src="logo-no-spark.svg" alt="ucare">
   			</div>
   			<div class="logo-spark inactive">
   				<img src="spark.svg" alt="ucare">
   			</div>
-  			<div class="text-jumper inactive">
-          <span data-timeline="2000">Medicare </span>
-  				<span data-timeline="2500">plans </span>
-  				<span data-timeline="3000">for </span>
-  				<span data-timeline="3500">every </span>
-  				<span data-timeline="4000">lifestyle </span>
-  				<span data-timeline="4500">and </span>
-  				<span data-timeline="5000">budget</span>
+  			<div class="text-jumper">
+          <span data-timeline="2000" class="clinic"><div><img src="icon-clinic-lg.png"></div><p>Your clinic</p></span>
+  				<span data-timeline="2500" class="doctor"><div><img src="icon-doctor-lg.png"></div><p>Your doctor</p></span>
+  				<span data-timeline="3000" class="network"><div><img src="icon-network-lg.png"></div><p>Your network</p></span>
   			</div>
-  			<span class="button inactive">Shop now</span>
+        <div class="tagline inactive">
+          <p>UCare Individual &amp; Family Plans</p>
+        </div>
+  			<span class="button inactive">Learn more</span>
   		</div>
   	</div>
   </a>
 
   <a href="https://ucare.org/medicare">
-  	<div class="ucareb" id="b300x600" data-text-delay="1000" data-logo-delay="100">
+  	<div class="ucareb" id="b300x600" data-text-delay="3500" data-logo-delay="100">
   		<div class="inner">
   			<div class="logo-text">
-          <div class="logo-hide" data-logo-reveal="500"></div>
-  				<img src="logo.svg" alt="ucare">
+          <div class="logo-hide" data-logo-reveal="1000"></div>
+  				<img src="logo-no-spark.svg" alt="ucare">
   			</div>
   			<div class="logo-spark inactive">
   				<img src="spark.svg" alt="ucare">
   			</div>
-  			<div class="text-jumper inactive">
-          <span data-timeline="2000">Medicare </span>
-  				<span data-timeline="2500">plans </span>
-  				<span data-timeline="3000">for </span>
-  				<span data-timeline="3500">every </span>
-  				<span data-timeline="4000">lifestyle </span>
-  				<span data-timeline="4500">and </span>
-  				<span data-timeline="5000">budget</span>
+  			<div class="text-jumper">
+          <span data-timeline="2000" class="clinic"><div><img src="icon-clinic-lg.png"></div><p>Your clinic</p></span>
+  				<span data-timeline="2500" class="doctor"><div><img src="icon-doctor-lg.png"></div><p>Your doctor</p></span>
+  				<span data-timeline="3000" class="network"><div><img src="icon-network-lg.png"></div><p>Your network</p></span>
   			</div>
-  			<span class="button inactive">Shop now</span>
+        <div class="tagline inactive">
+          <p>UCare Individual &amp; Family Plans</p>
+        </div>
+  			<span class="button inactive">Learn more</span>
   		</div>
   	</div>
   </a>
 
   <a href="https://ucare.org/medicare">
-  	<div class="ucareb" id="b160x600" data-text-delay="1000" data-logo-delay="100">
+  	<div class="ucareb" id="b160x600" data-text-delay="3500" data-logo-delay="100">
   		<div class="inner">
   			<div class="logo-text">
-          <div class="logo-hide" data-logo-reveal="500"></div>
-  				<img src="logo.svg" alt="ucare">
+          <div class="logo-hide" data-logo-reveal="1000"></div>
+  				<img src="logo-no-spark.svg" alt="ucare">
   			</div>
   			<div class="logo-spark inactive">
   				<img src="spark.svg" alt="ucare">
   			</div>
-  			<div class="text-jumper inactive">
-          <span data-timeline="2000">Medicare </span>
-  				<span data-timeline="2500">plans </span>
-  				<span data-timeline="3000">for </span>
-  				<span data-timeline="3500">every </span>
-  				<span data-timeline="4000">lifestyle </span>
-  				<span data-timeline="4500">and </span>
-  				<span data-timeline="5000">budget</span>
+  			<div class="text-jumper">
+          <span data-timeline="2000" class="clinic"><div><img src="icon-clinic-lg.png"></div><p>Your clinic</p></span>
+  				<span data-timeline="2500" class="doctor"><div><img src="icon-doctor-lg.png"></div><p>Your doctor</p></span>
+  				<span data-timeline="3000" class="network"><div><img src="icon-network-lg.png"></div><p>Your network</p></span>
   			</div>
-  			<span class="button inactive">Shop now</span>
+        <div class="tagline inactive">
+          <p>UCare Individual &amp; Family Plans</p>
+        </div>
+  			<span class="button inactive">Learn more</span>
   		</div>
   	</div>
   </a>
 
   <a href="https://ucare.org/medicare">
-  	<div class="ucareb" id="b300x250" data-text-delay="1000" data-logo-delay="100">
+  	<div class="ucareb" id="b300x250" data-text-delay="3500" data-logo-delay="100">
   		<div class="inner">
   			<div class="logo-text">
-          <div class="logo-hide" data-logo-reveal="500"></div>
-  				<img src="logo.svg" alt="ucare">
+          <div class="logo-hide" data-logo-reveal="1000"></div>
+  				<img src="logo-no-spark.svg" alt="ucare">
   			</div>
   			<div class="logo-spark inactive">
   				<img src="spark.svg" alt="ucare">
   			</div>
-  			<div class="text-jumper inactive">
-          <span data-timeline="2000">Medicare </span>
-  				<span data-timeline="2500">plans </span>
-  				<span data-timeline="3000">for </span>
-  				<span data-timeline="3500">every </span>
-  				<span data-timeline="4000">lifestyle </span>
-  				<span data-timeline="4500">and </span>
-  				<span data-timeline="5000">budget</span>
+  			<div class="text-jumper">
+          <span data-timeline="2000" class="clinic"><div><img src="icon-clinic-sm.png"></div><p>Your clinic</p></span>
+  				<span data-timeline="2500" class="doctor"><div><img src="icon-doctor-sm.png"></div><p>Your doctor</p></span>
+  				<span data-timeline="3000" class="network"><div><img src="icon-network-sm.png"></div><p>Your network</p></span>
   			</div>
-  			<span class="button inactive">Shop now</span>
+        <div class="tagline inactive">
+          <p>UCare Individual &amp; Family Plans</p>
+        </div>
+  			<span class="button inactive">Learn more</span>
   		</div>
   	</div>
   </a>
 
   <a href="https://ucare.org/medicare">
-  	<div class="ucareb" id="b728x90" data-text-delay="1000" data-logo-delay="100">
+  	<div class="ucareb" id="b728x90" data-text-delay="3500" data-logo-delay="100">
   		<div class="inner">
   			<div class="logo-text">
-          <div class="logo-hide" data-logo-reveal="500"></div>
-  				<img src="logo.svg" alt="ucare">
+          <div class="logo-hide" data-logo-reveal="1000"></div>
+  				<img src="logo-no-spark.svg" alt="ucare">
   			</div>
   			<div class="logo-spark inactive">
   				<img src="spark.svg" alt="ucare">
   			</div>
-  			<div class="text-jumper inactive">
-          <span data-timeline="2000">Medicare </span>
-  				<span data-timeline="2500">plans </span>
-  				<span data-timeline="3000">for </span>
-  				<span data-timeline="3500">every </span>
-  				<span data-timeline="4000">lifestyle </span>
-  				<span data-timeline="4500">and </span>
-  				<span data-timeline="5000">budget</span>
+  			<div class="text-jumper">
+          <span data-timeline="2000" class="clinic"><div><img src="icon-clinic-sm.png"></div><p>Your clinic</p></span>
+  				<span data-timeline="2500" class="doctor"><div><img src="icon-doctor-sm.png"></div><p>Your doctor</p></span>
+  				<span data-timeline="3000" class="network"><div><img src="icon-network-sm.png"></div><p>Your network</p></span>
   			</div>
-  			<span class="button inactive">Shop now</span>
+        <div class="tagline inactive">
+          <p>UCare Individual &amp; Family Plans</p>
+        </div>
+  			<span class="button inactive">Learn more</span>
   		</div>
   	</div>
   </a>
 
   <a href="https://ucare.org/medicare">
-  	<div class="ucareb" id="b320x50" data-text-delay="1000" data-logo-delay="100">
+  	<div class="ucareb" id="b320x50" data-text-delay="3500" data-logo-delay="100">
   		<div class="inner">
   			<div class="logo-text">
-          <div class="logo-hide" data-logo-reveal="500"></div>
-  				<img src="logo.svg" alt="ucare">
+          <div class="logo-hide" data-logo-reveal="1000"></div>
+  				<img src="logo-no-spark.svg" alt="ucare">
   			</div>
   			<div class="logo-spark inactive">
   				<img src="spark.svg" alt="ucare">
   			</div>
-  			<div class="text-jumper inactive">
-          <span data-timeline="2000">Medicare </span>
-  				<span data-timeline="2500">plans </span>
-  				<span data-timeline="3000">for </span>
-  				<span data-timeline="3500">every </span>
-  				<span data-timeline="4000">lifestyle </span>
-  				<span data-timeline="4500">and </span>
-  				<span data-timeline="5000">budget</span>
+  			<div class="text-jumper">
+          <span data-timeline="2000" class="clinic"><p>Your clinic, </p></span>
+  				<span data-timeline="2500" class="doctor"><p>Your doctor, </p></span>
+  				<span data-timeline="3000" class="network"><p>Your network</p></span>
   			</div>
-  			<span class="button inactive">Shop now</span>
+        <div class="tagline inactive">
+          <p>UCare Individual &amp; Family Plans</p>
+        </div>
+  			<span class="button inactive">Learn more</span>
   		</div>
   	</div>
   </a>

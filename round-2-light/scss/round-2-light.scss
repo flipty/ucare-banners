@@ -47,15 +47,18 @@ body {
       }
     }
     .logo-spark {
-      width: 230px;
-      height: 230px;
+      width: 28px;
+      height: 28px;
       position: absolute;
+      z-index: 3;
       right: 0;
       bottom: 0;
+      opacity: 1;
       transition: all 1000ms;
       &.inactive {
-        margin-right: -230px;
-        margin-bottom: -230px;
+        margin-left: -100px;
+        margin-top: 0;
+        opacity: 0;
         transform: rotate(270deg);
       }
     }
@@ -67,9 +70,49 @@ body {
       transition: opacity 1000ms;
       > span {
         transition: all 250ms;
-        &.active {
-          color: $blue;
+        display: flex;
+        opacity: 0;
+        margin-top: 20px;
+        > div {
+          width: 60px;
+          text-align: center;
         }
+        > p {
+          padding: 0;
+          margin: 0;
+        }
+        &.active {
+          // color: $white;
+          opacity: 1;
+          margin-top: 0;
+        }
+        &.clinic {
+          img {
+
+          }
+        }
+        &.doctor {
+          img {
+
+          }
+        }
+        &.network {
+          img {
+
+          }
+        }
+      }
+      &.inactive {
+        opacity: 0;
+      }
+    }
+    .tagline {
+      position: absolute;
+      opacity: 1;
+      transition: all 500ms;
+      p {
+        color: $white;
+        text-align: center;
       }
       &.inactive {
         opacity: 0;
@@ -80,7 +123,7 @@ body {
       color: $white;
       text-decoration: none;
       border-radius: 8px;
-      padding: 0.5em 1.5em;
+      padding: 0.5em 1.25em;
       position: absolute;
       opacity: 1;
       transition: opacity 1000ms;
@@ -95,28 +138,56 @@ body {
       width: 728px;
       height: 90px;
       .logo-spark {
-        width: 93px;
-        right: -11px;
-        bottom: -150px;
+        left: 20px;
+        top: 15px;
       }
       .logo-text {
         width: 170px;
-        top: 35px;
+        top: 15px;
         .logo-hide {
           width: 170px;
           height: 30px;
         }
       }
       .text-jumper {
-        font-size: 25px;
-        width: 300px;
-        left: 220px;
-        top: 15px;
+        font-size: 23px;
+        width: 537px;
+        left: 195px;
+        top: 7px;
+        display: flex;
+        flex-flow: row;
+        > span {
+          align-items: center;
+          // margin-top: -20px;
+          > div {
+            width: 34px;
+            img {
+              width: 20px;
+            }
+          }
+          p {
+            font-size: 23px;
+          }
+          &.clinic {
+            > div {
+              img {
+                width: 17px;
+              }
+            }
+          }
+        }
+      }
+      .tagline {
+        top: 34px;
+        left: 320px;
+        p {
+          font-size: 17px;
+        }
       }
       span.button {
-        left: 530px;
-        top: 35px;
-        font-size: 13px;
+        left: 606px;
+        top: 50px;
+        font-size: 11px;
       }
     }
   }
@@ -125,26 +196,40 @@ body {
       width: 300px;
       height: 600px;
       .logo-text {
-        width: 160px;
+        width: 185px;
+        left: 60px;
+        top: 40px;
         .logo-hide {
-          width: 160px;
-          height: 30px;
+          width: 185px;
+          height: 35px;
         }
       }
       .logo-spark {
-        width: 188px;
-        right: -35px;
-        bottom: -69px;
+        width: 33px;
+        top: 40px;
+        left: 60px;
       }
       .text-jumper {
         font-size: 38px;
         top: 95px;
-        left: 25px;
-        width: 200px;
+        left: 22px;
+        width: 260px;
+        > span {
+          flex-flow: column;
+          align-items: center;
+          p {
+            font-size: 33px;
+            margin-bottom: 15px;
+          }
+        }
+      }
+      .tagline {
+        top: 460px;
+        left: 27px;
       }
       span.button {
-        top: 390px;
-        left: 25px;
+        top: 520px;
+        left: 90px;
         font-size: 15px;
       }
     }
@@ -154,12 +239,12 @@ body {
       width: 300px;
       height: 250px;
       .logo-spark {
-        width: 140px;
-        height: 140px;
-        bottom: -19px;
-        right: -21px;      }
+        top: 19px;
+        left: 40px;
+      }
       .logo-text {
-        width: 140px;
+        width: 155px;
+        left: 45px;
         .logo-hide {
           width: 140px;
           height: 30px;
@@ -168,13 +253,30 @@ body {
       .text-jumper {
         font-size: 24px;
         top: 60px;
-        left: 15px;
-        width: 215px;
+        left: 22px;
+        width: 230px;
+        > span {
+          margin-bottom: 7px;
+          &.clinic {
+            p {
+              margin-top: 4px;
+            }
+          }
+        }
+      }
+      .tagline {
+        top: 185px;
+        left: 43px;
+        width: 100px;
+        p {
+          font-size: 12px;
+          text-align: left;
+        }
       }
       span.button {
-        top: 160px;
-        left: 15px;
-        font-size: 12px;
+        top: 196px;
+        left: 150px;
+        font-size: 15px;
       }
     }
   }
@@ -183,27 +285,46 @@ body {
       width: 160px;
       height: 600px;
       .logo-text {
-        width: 140px;
-        left: 10px;
+        width: 125px;
+        left: 20px;
+        top: 30px;
         .logo-hide {
-          width: 140px;
+          width: 125px;
           height: 30px;
         }
       }
       .logo-spark {
-        width: 171px;
-        right: -34px;
-        bottom: -84px;
+        width: 22px;
+        top: 30px;
+        left: 19px;
       }
       .text-jumper {
         font-size: 28px;
-        top: 115px;
+        top: 78px;
         left: 15px;
         width: 128px;
+        > span {
+          flex-flow: column;
+          align-items: center;
+          img {
+            max-width: 30px;
+          }
+          p {
+            font-size: 29px;
+            text-align: center;
+            line-height: 1em;
+            margin-bottom: 20px;
+          }
+        }
+      }
+      .tagline {
+        top: 460px;
+        left: 12px;
+        width: 85%;
       }
       span.button {
-        top: 330px;
-        left: 15px;
+        top: 540px;
+        left: 25px;
         font-size: 13px;
       }
     }
@@ -214,23 +335,52 @@ body {
       height: 250px;
       .text-jumper {
         font-size: 43px;
-        top: 90px;
-        left: 67px;
-        width: 530px;
+        top: 20px;
+        left: 330px;
+        width: 400px;
+        > span {
+          align-items: center;
+          height: 73px;
+          img {
+            margin-right: 12px;
+          }
+          &.clinic {
+            img {
+              margin-bottom: -10px;
+            }
+          }
+          &.network {
+            height: 64px;
+            p {
+              margin-top: -4px;
+            }
+          }
+        }
       }
       .logo-text {
+        top: 110px;
+        left: 75px;
         .logo-hide {
           width: 200px;
           height: 50px;
         }
       }
       .logo-spark {
-        right: -32px;
-        bottom: -23px;
+        width: 35px;
+        left: 75px;
+        top: 110px;
+      }
+      .tagline {
+        top: 45px;
+        left: 694px;
+        width: 216px;
+        p {
+          font-size: 26px;
+        }
       }
       span.button {
-        right: 213px;
-        bottom: 76px;
+        right: 96px;
+        bottom: 55px;
         font-size: 18px;
       }
     }
@@ -249,23 +399,30 @@ body {
         }
       }
       .logo-spark {
-        display: none;
+        width: 20px;
+        top: 15px;
+        left: 8px;
       }
       .text-jumper {
-        font-size: 12px;
+        font-size: 16px;
         width: 192px;
         left: 115px;
-        top: 12px;
+        top: 7px;
+        display: flex;
+        flex-flow: row wrap;
+      }
+      .tagline {
+        display: none;
       }
       span.button {
         display: inline;
         padding: inherit;
         background: none;
-        color: $blue;
+        color: $white;
         text-decoration: underline;
-        font-size: 12px;
-        left: 190px;
-        bottom: 9px;
+        font-size: 14px;
+        left: 230px;
+        bottom: 5px;
       }
     }
   }
