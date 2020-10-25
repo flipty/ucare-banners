@@ -334,32 +334,44 @@ body {
       width: 970px;
       height: 250px;
       .text-jumper {
-        font-size: 43px;
-        top: 20px;
-        left: 330px;
-        width: 400px;
+        font-size: 41px;
+        top: 40px;
+        left: 300px;
+        width: 450px;
         > span {
           align-items: center;
           height: 73px;
-          img {
-            margin-right: 12px;
+          &.icons {
+            display: flex;
+            flex-flow: row;
+            justify-content: center;
+            width: 260px;
+            margin-left: 80px;
+            height: 50px;
           }
-          &.clinic {
+          div {
+            display: flex;
+            flex-flow: row;
+            justify-content: space-between;
+            width: 350px;
             img {
-              margin-bottom: -10px;
-            }
-          }
-          &.network {
-            height: 64px;
-            p {
-              margin-top: -4px;
+              &.book {
+                height: 51px;
+              }
+              &.arrow {
+                height: 35px;
+                margin-top: 10px;
+              }
+              &.check {
+                height: 62px;
+              }
             }
           }
         }
       }
       .logo-text {
         top: 110px;
-        left: 75px;
+        left: 55px;
         .logo-hide {
           width: 200px;
           height: 50px;
@@ -367,20 +379,20 @@ body {
       }
       .logo-spark {
         width: 35px;
-        left: 75px;
+        left: 55px;
         top: 110px;
       }
       .tagline {
-        top: 45px;
-        left: 694px;
-        width: 216px;
+        top: 142px;
+        left: 240px;
+        width: 536px;
         p {
-          font-size: 26px;
+          font-size: 21px;
         }
       }
       span.button {
-        right: 96px;
-        bottom: 55px;
+        right: 60px;
+        bottom: 100px;
         font-size: 18px;
       }
     }
@@ -404,10 +416,10 @@ body {
         left: 8px;
       }
       .text-jumper {
-        font-size: 16px;
-        width: 192px;
+        font-size: 12px;
+        width: 140px;
         left: 115px;
-        top: 7px;
+        top: 4px;
         display: flex;
         flex-flow: row wrap;
       }
@@ -415,14 +427,14 @@ body {
         display: none;
       }
       span.button {
-        display: inline;
-        padding: inherit;
-        background: none;
-        color: $white;
-        text-decoration: underline;
-        font-size: 14px;
+        // display: inline;
+        // padding: inherit;
+        // background: none;
+        // color: $white;
+        // text-decoration: underline;
+        font-size: 9px;
         left: 230px;
-        bottom: 5px;
+        bottom: 12px;
       }
     }
   }
