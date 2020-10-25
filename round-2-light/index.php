@@ -122,7 +122,7 @@
   				<img src="spark.svg" alt="ucare">
   			</div>
   			<div class="text-jumper">
-          <span data-timeline="2000"><div></div><p>IMG</p></span>
+          <span data-timeline="2000"><div><img src="icon-book.png" alt="book"></div></span>
   				<span data-timeline="2500"><div></div><p>A plan for everybody</p></span>
   			</div>
         <div class="tagline inactive">

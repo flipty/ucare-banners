@@ -139,11 +139,11 @@ body {
       height: 90px;
       .logo-spark {
         left: 20px;
-        top: 15px;
+        top: 30px;
       }
       .logo-text {
         width: 170px;
-        top: 15px;
+        top: 30px;
         .logo-hide {
           width: 170px;
           height: 30px;
@@ -153,7 +153,7 @@ body {
         font-size: 23px;
         width: 537px;
         left: 195px;
-        top: 7px;
+        top: 13px;
         display: flex;
         flex-flow: row;
         > span {
@@ -162,26 +162,21 @@ body {
           > div {
             width: 34px;
             img {
-              width: 20px;
+              width: 40px;
+              margin-left: 18px;
+              margin-top: 2px;
             }
           }
           p {
-            font-size: 23px;
-          }
-          &.clinic {
-            > div {
-              img {
-                width: 17px;
-              }
-            }
+            font-size: 32px;
           }
         }
       }
       .tagline {
         top: 34px;
-        left: 320px;
+        left: 213px;
         p {
-          font-size: 17px;
+          font-size: 19px;
         }
       }
       span.button {
