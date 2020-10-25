@@ -53,9 +53,9 @@
   				<img src="spark.svg" alt="ucare">
   			</div>
   			<div class="text-jumper">
-          <span data-timeline="2000"><div></div><p>A plan</p></span>
-  				<span data-timeline="2500"><div></div><p>for</p></span>
-  				<span data-timeline="3000"><div></div><p>everybody</p></span>
+          <span data-timeline="2000" class="plan"><div><img src="icon-book.png" alt="book"></div><p>A plan</p></span>
+  				<span data-timeline="2500" class="for"><div></div><p>for</p></span>
+  				<span data-timeline="3000" class="everybody"><div><img src="icon-check.png" alt="check"></div><p>everybody</p></span>
   			</div>
         <div class="tagline inactive">
           <p>Copay and HSA-compatible health plans</p>
@@ -76,9 +76,9 @@
   				<img src="spark.svg" alt="ucare">
   			</div>
   			<div class="text-jumper">
-          <span data-timeline="2000"><div></div><p>A plan</p></span>
-  				<span data-timeline="2500"><div></div><p>for</p></span>
-  				<span data-timeline="3000"><div></div><p>everybody</p></span>
+          <span data-timeline="2000" class="plan"><div><img src="icon-book.png" alt="book"></div><p>A plan</p></span>
+  				<span data-timeline="2500" class="for"><div></div><p>for</p></span>
+  				<span data-timeline="3000" class="everybody"><div><img src="icon-check.png" alt="check"></div><p>everybody</p></span>
   			</div>
         <div class="tagline inactive">
           <p>Copay and<br>HSA-compatible health plans</p>

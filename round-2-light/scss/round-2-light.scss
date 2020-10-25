@@ -206,7 +206,7 @@ body {
       }
       .text-jumper {
         font-size: 38px;
-        top: 95px;
+        top: 100px;
         left: 22px;
         width: 260px;
         > span {
@@ -215,6 +215,36 @@ body {
           p {
             font-size: 33px;
             margin-bottom: 15px;
+          }
+          &.plan {
+            p {
+              margin-left: 3px;
+            }
+            img {
+              width: 50px;
+            }
+          }
+          &.for {
+            &:before {
+              content: "";
+              display: block;
+              border-right: solid 3px $blue;
+              height: 40px;
+            }
+            &:after {
+              content: "";
+              display: block;
+              border-right: solid 3px $blue;
+              height: 35px;
+              margin-top: -10px;
+              margin-bottom: 10px;
+            }
+          }
+          &.everybody {
+            img {
+              width: 50px;
+              margin-left: 3px;
+            }
           }
         }
       }
@@ -312,20 +342,51 @@ body {
         left: 19px;
       }
       .text-jumper {
-        top: 78px;
+        top: 115px;
         left: 15px;
         width: 128px;
         > span {
           flex-flow: column;
           align-items: center;
-          img {
-            max-width: 30px;
-          }
           p {
             font-size: 25px;
             text-align: center;
             line-height: 1em;
             margin-bottom: 20px;
+          }
+          &.plan {
+            p {
+              margin-left: 3px;
+            }
+            img {
+              width: 50px;
+            }
+          }
+          &.for {
+            p {
+              margin-top: 5px;
+            }
+            &:before {
+              content: "";
+              display: block;
+              border-right: solid 3px $blue;
+              height: 40px;
+            }
+            &:after {
+              content: "";
+              display: block;
+              border-right: solid 3px $blue;
+              height: 35px;
+              margin-top: -10px;
+              margin-bottom: 10px;
+            }
+          }
+          &.everybody {
+            img {
+              width: 50px;
+              margin-left: 3px;
+              margin-bottom: 3px;
+            }
           }
         }
       }
