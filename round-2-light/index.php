@@ -15,7 +15,7 @@
   <div class="banner-container">
 
   <a href="https://ucare.org/medicare">
-  	<div class="ucareb" id="b970x250" data-text-delay="3500" data-logo-delay="100">
+  	<div class="ucareb" id="b970x250" data-text-delay="3000" data-logo-delay="100">
   		<div class="inner">
   			<div class="logo-text">
           <div class="logo-hide" data-logo-reveal="1000"></div>
@@ -53,9 +53,9 @@
   				<img src="spark.svg" alt="ucare">
   			</div>
   			<div class="text-jumper">
-          <span data-timeline="2000"><div></div><p>Your clinic</p></span>
-  				<span data-timeline="2500"><div></div><p>Your doctor</p></span>
-  				<span data-timeline="3000"><div></div><p>Your network</p></span>
+          <span data-timeline="2000"><div></div><p>A plan</p></span>
+  				<span data-timeline="2500"><div></div><p>for</p></span>
+  				<span data-timeline="3000"><div></div><p>everybody</p></span>
   			</div>
         <div class="tagline inactive">
           <p>Copay and HSA-compatible health plans</p>
@@ -76,12 +76,12 @@
   				<img src="spark.svg" alt="ucare">
   			</div>
   			<div class="text-jumper">
-          <span data-timeline="2000"><div></div><p>Your clinic</p></span>
-  				<span data-timeline="2500"><div></div><p>Your doctor</p></span>
-  				<span data-timeline="3000"><div></div><p>Your network</p></span>
+          <span data-timeline="2000"><div></div><p>A plan</p></span>
+  				<span data-timeline="2500"><div></div><p>for</p></span>
+  				<span data-timeline="3000"><div></div><p>everybody</p></span>
   			</div>
         <div class="tagline inactive">
-          <p>Copay and HSA-compatible health plans</p>
+          <p>Copay and<br>HSA-compatible health plans</p>
         </div>
   			<span class="button inactive">Learn more</span>
   		</div>
@@ -99,12 +99,12 @@
   				<img src="spark.svg" alt="ucare">
   			</div>
   			<div class="text-jumper">
-          <span data-timeline="2000"><div><img src="icon-clinic-sm.png"></div><p>Your clinic</p></span>
-  				<span data-timeline="2500"><div><img src="icon-doctor-sm.png"></div><p>Your doctor</p></span>
-  				<span data-timeline="3000"><div><img src="icon-network-sm.png"></div><p>Your network</p></span>
+          <span data-timeline="2000" class="plan"><div><img src="icon-book.png" alt="book"></div><p>A plan</p></span>
+  				<span data-timeline="2500" class="for"><div></div><p>for</p></span>
+  				<span data-timeline="3000" class="everybody"><div><img src="icon-check.png" alt="check"></div><p>everybody</p></span>
   			</div>
         <div class="tagline inactive">
-          <p>Copay and HSA-compatible health plans</p>
+          <p>Copay and<br>HSA-compatible health plans</p>
         </div>
   			<span class="button inactive">Learn more</span>
   		</div>
@@ -122,9 +122,8 @@
   				<img src="spark.svg" alt="ucare">
   			</div>
   			<div class="text-jumper">
-          <span data-timeline="2000"><div><img src="icon-clinic-sm.png"></div><p>Your clinic</p></span>
-  				<span data-timeline="2500"><div><img src="icon-doctor-sm.png"></div><p>Your doctor</p></span>
-  				<span data-timeline="3000"><div><img src="icon-network-sm.png"></div><p>Your network</p></span>
+          <span data-timeline="2000"><div></div><p>IMG</p></span>
+  				<span data-timeline="2500"><div></div><p>A plan for everybody</p></span>
   			</div>
         <div class="tagline inactive">
           <p>Copay and HSA-compatible health plans</p>
