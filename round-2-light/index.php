@@ -2,6 +2,9 @@
 <html class="no-js" lang="">
 
 <head>
+  <script type="text/javascript">
+  var clickTag = "https://www.placeholder.here";
+  </script>
   <meta charset="utf-8">
   <title>Ucare</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,7 +17,7 @@
 
   <div class="banner-container">
 
-  <a href="https://ucare.org/medicare">
+  <a href="javascript:window.open(window.clickTag)">
   	<div class="ucareb" id="b970x250" data-text-delay="3000" data-logo-delay="100">
   		<div class="inner">
   			<div class="logo-text">
@@ -42,7 +45,7 @@
   	</div>
   </a>
 
-  <a href="https://ucare.org/medicare">
+  <a href="javascript:window.open(window.clickTag)">
   	<div class="ucareb" id="b300x600" data-text-delay="3500" data-logo-delay="100">
   		<div class="inner">
   			<div class="logo-text">
@@ -65,7 +68,7 @@
   	</div>
   </a>
 
-  <a href="https://ucare.org/medicare">
+  <a href="javascript:window.open(window.clickTag)">
   	<div class="ucareb" id="b160x600" data-text-delay="3500" data-logo-delay="100">
   		<div class="inner">
   			<div class="logo-text">
@@ -88,7 +91,7 @@
   	</div>
   </a>
 
-  <a href="https://ucare.org/medicare">
+  <a href="javascript:window.open(window.clickTag)">
   	<div class="ucareb" id="b300x250" data-text-delay="3500" data-logo-delay="100">
   		<div class="inner">
   			<div class="logo-text">
@@ -111,7 +114,7 @@
   	</div>
   </a>
 
-  <a href="https://ucare.org/medicare">
+  <a href="javascript:window.open(window.clickTag)">
   	<div class="ucareb" id="b728x90" data-text-delay="3500" data-logo-delay="100">
   		<div class="inner">
   			<div class="logo-text">
@@ -133,7 +136,7 @@
   	</div>
   </a>
 
-  <a href="https://ucare.org/medicare">
+  <a href="javascript:window.open(window.clickTag)">
   	<div class="ucareb" id="b320x50" data-text-delay="3500" data-logo-delay="100">
   		<div class="inner">
   			<div class="logo-text">
