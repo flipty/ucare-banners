@@ -149,7 +149,7 @@
   			<div class="text-jumper">
           <span data-timeline="2000"><p>Copay and</p></span>
   				<span data-timeline="2500"><p>HSA-compatible</p></span>
-  				<span data-timeline="3000"><p>Health plans</p></span>
+  				<span data-timeline="3000"><p>health plans</p></span>
   			</div>
   			<span class="button inactive">Learn more</span>
   		</div>

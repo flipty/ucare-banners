@@ -202,7 +202,7 @@ body {
       .logo-spark {
         width: 33px;
         top: 40px;
-        left: 60px;
+        left: 56px;
       }
       .text-jumper {
         font-size: 38px;
@@ -257,6 +257,8 @@ body {
         top: 520px;
         left: 90px;
         font-size: 15px;
+        line-height: 1.5em;
+        padding-bottom: 8px;
       }
     }
   }
@@ -337,9 +339,9 @@ body {
         }
       }
       .logo-spark {
-        width: 22px;
-        top: 30px;
-        left: 19px;
+        width: 21px;
+        top: 29px;
+        left: 20px;
       }
       .text-jumper {
         top: 115px;
@@ -402,6 +404,7 @@ body {
         top: 540px;
         left: 25px;
         font-size: 13px;
+        padding-bottom: 7px;
       }
     }
   }
@@ -455,12 +458,12 @@ body {
       }
       .logo-spark {
         width: 35px;
-        left: 55px;
+        left: 52px;
         top: 110px;
       }
       .tagline {
         top: 142px;
-        left: 240px;
+        left: 233px;
         width: 536px;
         p {
           font-size: 21px;
@@ -487,8 +490,8 @@ body {
         }
       }
       .logo-spark {
-        width: 20px;
-        top: 15px;
+        width: 17px;
+        top: 17px;
         left: 8px;
       }
       .text-jumper {
@@ -503,14 +506,11 @@ body {
         display: none;
       }
       span.button {
-        // display: inline;
-        // padding: inherit;
-        // background: none;
-        // color: $white;
-        // text-decoration: underline;
         font-size: 9px;
         left: 230px;
         bottom: 12px;
+        line-height: 1.5em;
+        padding-bottom: 5px;
       }
     }
   }
