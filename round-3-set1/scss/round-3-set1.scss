@@ -1,0 +1,688 @@
+$gold: #f1c04a;
+$blue: #001f5b;
+$lightblue: #307fe3;
+$white: #FFFFFF;
+$red: #c5003e;
+
+.banner-container {
+  //this whole container is temporary
+  display: flex;
+  flex-flow: row wrap;
+  div.ucareb {
+    margin: 10px;
+  }
+}
+body {
+  padding: 0;
+  margin: 0;
+  .HIDE {
+    display: none !important;
+  }
+  .SHOW {
+    display: block !important;
+    right: auto !important;
+    left: auto !important;
+    top: 0 !important;
+    bottom: auto !important;
+  }
+}
+.ucareb {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: $blue;
+  position: relative;
+  overflow: hidden;
+  .inner {
+    position: relative;
+    text-decoration: none !important;
+    background: #DDD;//temp;
+    overflow: hidden;
+    contain: strict;
+    .frames {
+      color: $gold;
+      text-decoration: none !important;
+      position: relative;
+      transition: opacity 1000ms;
+      > span {
+        transition: all 500ms;
+        position: absolute;
+        opacity: 0;
+        align-items: center;
+        &.active {
+          opacity: 1;
+          margin-top: 0;
+        }
+        &.network {
+          background: $blue;
+          color: $white;
+          z-index: 9;
+        }
+        &.benefits {
+          background: $red;
+          color: $white;
+          z-index: 8;
+        }
+        &.savings {
+          background: $gold;
+          color: $blue;
+          z-index: 9;
+        }
+      }
+      &.inactive {
+        opacity: 0;
+      }
+    }
+    .final-frame {
+      background: $blue;
+      position: absolute;
+      top: -250px;
+      left: 0;
+      z-index: 12;
+      transition: all 500ms;
+      .logo-text {
+        position: absolute;
+        top: 0;
+        left: 0;
+        .logo-hide {
+          background: $blue;
+          position: absolute;
+          top: 0;
+          z-index: 5;
+        }
+        img {
+          position: relative;
+          z-index: 4;
+        }
+      }
+      .logo-spark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: all 500ms;
+        &.inactive {
+          transform: rotate(180deg);
+        }
+      }
+      p.tagline {
+        position: absolute;
+        opacity: 1;
+        transition: all 500ms;
+        top: 0;
+        left: 0;
+        color: $white;
+        &.inactive {
+          opacity: 0;
+        }
+      }
+      span.button {
+        position: absolute;
+        top: 125px;
+        right: 50px;
+        background: $white;
+        color: $blue;
+        text-decoration: none;
+        border-radius: 1px;
+        padding: 0.75em 1.25em;
+        position: absolute;
+        opacity: 1;
+        transition: opacity 1000ms;
+        &.inactive {
+          opacity: 0;
+        }
+      }
+      &.active {
+        top: 0;
+      }
+    }
+  }
+
+  &#b970x250 {
+    .inner {
+      width: 970px;
+      height: 250px;
+      .frames {
+        top: 0;
+        left: 0;
+        width: 970px;
+        > span {
+          height: 250px;
+          width: 323px;
+          left: -999px;
+          &.network {
+            width: 324px;
+            img {
+            }
+            &.active {
+              left: 0;
+            }
+          }
+          &.benefits {
+            z-index: 8;
+            &.active {
+              left: 324px;
+            }
+          }
+          &.savings {
+            z-index: 7;
+            &.active {
+              left: 647px;
+            }
+          }
+          img {
+            margin-left: 50px;
+            margin-top: 40px;
+          }
+          p {
+            font-size: 35px;
+            width: 200px;
+            margin-left: 50px;
+            margin-top: 10px;
+            font-weight: 400;
+            line-height: 45px;
+          }
+        }
+      }
+      .final-frame {
+        width: 970px;
+        height: 250px;
+        .logo-text {
+          left: 55px;
+          top: 65px;
+          width: 270px;
+        }
+        .logo-spark {
+          left: 50px;
+          top: 60px;
+          img {
+            width: 52px;
+          }
+          &.inactive {
+            left: -100px;
+          }
+        }
+        p.tagline {
+          font-size: 44px;
+          font-weight: 400;
+          left: 50px;
+          top: 90px;
+        }
+        .button {
+          font-size: 27px;
+        }
+      }
+    }
+  }
+
+  &#b300x600 {
+    .inner {
+      width: 300px;
+      height: 600px;
+      .frames {
+        top: 0;
+        left: 0;
+        width: 300px;
+        > span {
+          width: 300px;
+          height: 200px;
+          top: -999px;
+          display: flex;
+          &.network {
+            img {
+            }
+            &.active {
+              top: 0;
+            }
+          }
+          &.benefits {
+            z-index: 8;
+            &.active {
+              top: 200px;
+            }
+          }
+          &.savings {
+            z-index: 7;
+            &.active {
+              top: 400px;
+            }
+          }
+          img {
+            margin-left: 30px;
+            margin-top: 15px;
+          }
+          p {
+            font-size: 32px;
+            width: 175px;
+            margin-left: 30px;
+            margin-top: 35px;
+            font-weight: 300;
+            line-height: 35px;
+          }
+        }
+      }
+      .final-frame {
+        width: 300px;
+        height: 600px;
+        top: 0px;
+        left: 300px;
+        overflow: hidden;
+        .large-spark {
+          width: 184px;
+          position: absolute;
+          top: -29px;
+          right: -23px;
+        }
+        .logo-text {
+          left: 45px;
+          top: 393px;
+          width: 220px;
+        }
+        .logo-spark {
+          left: 37px;
+          top: 389px;
+          img {
+            width: 45px;
+          }
+          &.inactive {
+            left: -100px;
+          }
+        }
+        p.tagline {
+          font-size: 36px;
+          font-weight: 300;
+          left: 35px;
+          top: 210px;
+        }
+        .button {
+          font-size: 22px;
+          bottom: 35px;
+          left: 35px;
+          right: auto;
+          top: auto;
+        }
+        &.active {
+          left: 0;
+        }
+      }
+    }
+  }
+
+  &#b160x600 {
+    .inner {
+      width: 160px;
+      height: 600px;
+      .frames {
+        top: 0;
+        left: 0;
+        width: 160px;
+        > span {
+          width: 160px;
+          height: 200px;
+          top: -999px;
+          text-align: center;
+          &.network {
+            img {
+            }
+            &.active {
+              top: 0;
+            }
+          }
+          &.benefits {
+            z-index: 8;
+            &.active {
+              top: 200px;
+            }
+          }
+          &.savings {
+            z-index: 7;
+            &.active {
+              top: 400px;
+            }
+          }
+          img {
+            margin-top: 28px;
+          }
+          p {
+            font-size: 20px;
+            width: 120px;
+            margin: 0 auto;
+            margin-top: 10px;
+            font-weight: 300;
+            line-height: 26px;
+          }
+        }
+      }
+      .final-frame {
+        width: 300px;
+        height: 600px;
+        top: 0px;
+        left: 300px;
+        overflow: hidden;
+        .large-spark {
+          position: absolute;
+          width: 120px;
+          top: -15px;
+          right: 125px;
+        }
+        .logo-text {
+          left: 25px;
+          top: 346px;
+          width: 116px;
+        }
+        .logo-spark {
+          left: 25px;
+          top: 345px;
+          img {
+            width: 21px;
+          }
+          &.inactive {
+            left: -100px;
+          }
+        }
+        p.tagline {
+          font-size: 24px;
+          line-height: 30px;
+          font-weight: 300;
+          left: 25px;
+          top: 170px;
+          width: 95px;
+        }
+        .button {
+          font-size: 13px;
+          bottom: 155px;
+          left: 25px;
+          right: auto;
+          top: auto;
+          padding: 0.65em 0.65em;
+        }
+        &.active {
+          left: 0;
+        }
+      }
+    }
+  }
+
+  &#b300x250 {
+    .inner {
+      width: 300px;
+      height: 250px;
+      .frames {
+        top: 0;
+        left: 0;
+        width: 300px;
+        > span {
+          width: 100px;
+          height: 250px;
+          left: -300px;
+          text-align: center;
+          &.network {
+            img {
+              width: 40px;
+              margin-top: 65px;
+              margin-bottom: 8px;
+            }
+            &.active {
+              left: 0;
+            }
+          }
+          &.benefits {
+            z-index: 8;
+            img {
+              margin-top: 65px;
+              width: 34px;
+              margin-bottom: 8px;
+            }
+            &.active {
+              left: 100px;
+            }
+          }
+          &.savings {
+            z-index: 7;
+            img {
+              width: 52px;
+              margin-top: 65px;
+              margin-bottom: 8px;
+            }
+            &.active {
+              left: 200px;
+            }
+          }
+          img {
+            // margin-left: 30px;
+            margin-top: 15px;
+          }
+          p {
+            font-size: 16px;
+            width: 75px;
+            font-weight: 300;
+            line-height: 20px;
+            margin: 0 auto;
+          }
+        }
+      }
+      .final-frame {
+        width: 300px;
+        height: 250px;
+        top: -300px;
+        overflow: hidden;
+        .large-spark {
+          width: 184px;
+          position: absolute;
+          top: -29px;
+          right: -23px;
+        }
+        .logo-text {
+          left: 29px;
+          top: 118px;
+          width: 168px;
+        }
+        .logo-spark {
+          left: 27px;
+          top: 116px;
+          img {
+            width: 32px;
+          }
+          &.inactive {
+            left: -100px;
+          }
+        }
+        p.tagline {
+          font-size: 22px;
+          line-height: 26px;
+          font-weight: 300;
+          left: 25px;
+          top: 20px;
+          width: 150px;
+        }
+        .button {
+          font-size: 13px;
+          bottom: 35px;
+          left: 25px;
+          right: auto;
+          top: auto;
+        }
+        &.active {
+          top: 0;
+        }
+      }
+    }
+  }
+
+  &#b728x90 {
+    .inner {
+      width: 728px;
+      height: 90px;
+      .frames {
+        top: 0;
+        left: 0;
+        width: 728px;
+        > span {
+          height: 90px;
+          width: 242px;
+          left: -999px;
+          display: flex;
+          &.network {
+            width: 243px;
+            img {
+              width: 28px;
+            }
+            &.active {
+              left: 0;
+            }
+          }
+          &.benefits {
+            z-index: 8;
+            &.active {
+              left: 243px;
+            }
+            img {
+              width: 25px;
+            }
+          }
+          &.savings {
+            width: 243px;
+            z-index: 7;
+            img {
+              width: 36px;
+            }
+            &.active {
+              left: 485px;
+            }
+          }
+          img {
+            margin-left: 30px;
+            margin-top: 10px;
+          }
+          p {
+            font-size: 19px;
+            width: 150px;
+            margin-left: 15px;
+            margin-top: 18px;
+            font-weight: 400;
+            line-height: 24px;
+          }
+        }
+      }
+      .final-frame {
+        width: 728px;
+        height: 90px;
+        .logo-text {
+          left: 376px;
+          top: 33px;
+          width: 165px;
+        }
+        .logo-spark {
+          left: 375px;
+          top: 32px;
+          img {
+            width: 28px;
+          }
+          &.inactive {
+            left: -100px;
+          }
+        }
+        p.tagline {
+          font-size: 25px;
+          font-weight: 400;
+          left: 30px;
+          top: 2px;
+        }
+        .button {
+          font-size: 15px;
+          top: 20px;
+          right: 20px;
+          padding: 1em 1.5em;
+        }
+      }
+    }
+  }
+
+  &#b320x50 {
+    .inner {
+      width: 320px;
+      height: 50px;
+      .frames {
+        top: 0;
+        left: 0;
+        width: 320px;
+        > span {
+          height: 50px;
+          width: 106px;
+          left: -999px;
+          display: flex;
+          &.network {
+            width: 107px;
+            img {
+              width: 16px;
+            }
+            &.active {
+              left: 0;
+            }
+          }
+          &.benefits {
+            z-index: 8;
+            &.active {
+              left: 107px;
+            }
+            img {
+              width: 16px;
+            }
+          }
+          &.savings {
+            width: 108px;
+            z-index: 7;
+            img {
+              width: 22px;
+            }
+            &.active {
+              left: 212px;
+            }
+          }
+          img {
+            margin-left: 20px;
+            margin-top: 6px;
+          }
+          p {
+            font-size: 10px;
+            width: 55px;
+            margin-left: 10px;
+            margin-top: 12px;
+            font-weight: 400;
+            line-height: 12px;
+          }
+        }
+      }
+      .final-frame {
+        width: 320px;
+        height: 50px;
+        .logo-text {
+          left: 167px;
+          top: 15px;
+          width: 67px;
+        }
+        .logo-spark {
+          left: 162px;
+          top: 17px;
+          img {
+            width: 14px;
+          }
+          &.inactive {
+            left: -100px;
+          }
+        }
+        p.tagline {
+          font-size: 11px;
+          font-weight: 400;
+          left: 10px;
+          top: 6px;
+        }
+        .button {
+          font-size: 8px;
+          top: 14px;
+          right: 10px;
+          padding: 0.75em 1em;
+        }
+      }
+    }
+  }
+
+}
