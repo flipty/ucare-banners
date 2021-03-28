@@ -5,7 +5,6 @@ $white: #FFFFFF;
 $red: #c5003e;
 
 .banner-container {
-  //this whole container is temporary
   display: flex;
   flex-flow: row wrap;
   div.ucareb {
@@ -26,6 +25,8 @@ body {
     bottom: auto !important;
   }
 }
+
+
 .ucareb {
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
@@ -35,7 +36,6 @@ body {
   .inner {
     position: relative;
     text-decoration: none !important;
-    background: #DDD;//temp;
     overflow: hidden;
     contain: strict;
     .first-frame {
