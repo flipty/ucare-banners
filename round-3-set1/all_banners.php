@@ -206,7 +206,7 @@
             <div>
               <img src="icon-savings.png">
             </div>
-            <p>Better value</p>
+            <p>Better savings</p>
           </span>
   			</div>
         <div data-timeline="3000" class="final-frame">
@@ -246,7 +246,7 @@
             <div>
               <img src="icon-savings.png">
             </div>
-            <p>Better value</p>
+            <p>Better savings</p>
           </span>
   			</div>
         <div data-timeline="3000" class="final-frame">
