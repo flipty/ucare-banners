@@ -151,6 +151,7 @@ body {
           &.network {
             width: 324px;
             img {
+              width: 80px;
             }
             &.active {
               left: 0;
@@ -158,19 +159,27 @@ body {
           }
           &.benefits {
             z-index: 8;
+            img {
+              width: 80px;
+              margin-left: 35px;
+            }
             &.active {
               left: 324px;
             }
           }
           &.savings {
             z-index: 7;
+            img {
+              width: 80px;
+              margin-left: 45px;
+            }
             &.active {
               left: 647px;
             }
           }
           img {
-            margin-left: 50px;
-            margin-top: 40px;
+            margin-left: 40px;
+            margin-top: 35px;
           }
           p {
             font-size: 35px;
@@ -248,11 +257,12 @@ body {
           img {
             margin-left: 30px;
             margin-top: 15px;
+            width: 85px;
           }
           p {
             font-size: 32px;
             width: 175px;
-            margin-left: 30px;
+            margin-left: 10px;
             margin-top: 35px;
             font-weight: 300;
             line-height: 35px;
@@ -334,18 +344,22 @@ body {
           }
           &.savings {
             z-index: 7;
+            img {
+              width: 65px;
+            }
             &.active {
               top: 400px;
             }
           }
           img {
-            margin-top: 28px;
+            margin-top: 35px;
+            width: 75px;
           }
           p {
             font-size: 20px;
             width: 120px;
             margin: 0 auto;
-            margin-top: 10px;
+            margin-top: 5px;
             font-weight: 300;
             line-height: 26px;
           }
@@ -416,7 +430,7 @@ body {
           text-align: center;
           &.network {
             img {
-              width: 40px;
+              width: 60px;
               margin-top: 65px;
               margin-bottom: 8px;
             }
@@ -428,7 +442,7 @@ body {
             z-index: 8;
             img {
               margin-top: 65px;
-              width: 34px;
+              width: 60px;
               margin-bottom: 8px;
             }
             &.active {
@@ -438,7 +452,7 @@ body {
           &.savings {
             z-index: 7;
             img {
-              width: 52px;
+              width: 60px;
               margin-top: 65px;
               margin-bottom: 8px;
             }
@@ -523,7 +537,7 @@ body {
           &.network {
             width: 243px;
             img {
-              width: 28px;
+              width: 48px;
             }
             &.active {
               left: 0;
@@ -535,22 +549,25 @@ body {
               left: 243px;
             }
             img {
-              width: 25px;
+              width: 48px;
+              margin-left: 20px;
+              margin-right: -5px;
             }
           }
           &.savings {
             width: 243px;
             z-index: 7;
             img {
-              width: 36px;
+              width: 48px;
+              margin-left: 25px;
             }
             &.active {
               left: 485px;
             }
           }
           img {
-            margin-left: 30px;
-            margin-top: 10px;
+            margin-left: 15px;
+            margin-top: 7px;
           }
           p {
             font-size: 19px;
@@ -612,7 +629,8 @@ body {
           &.network {
             width: 107px;
             img {
-              width: 16px;
+              width: 26px;
+              margin-left: 15px;
             }
             &.active {
               left: 0;
@@ -624,27 +642,28 @@ body {
               left: 107px;
             }
             img {
-              width: 16px;
+              width: 26px;
             }
           }
           &.savings {
             width: 108px;
             z-index: 7;
             img {
-              width: 22px;
+              width: 24px;
+              margin-left: 20px;
             }
             &.active {
               left: 212px;
             }
           }
           img {
-            margin-left: 20px;
+            margin-left: 10px;
             margin-top: 6px;
           }
           p {
             font-size: 10px;
             width: 55px;
-            margin-left: 10px;
+            margin-left: 5px;
             margin-top: 12px;
             font-weight: 400;
             line-height: 12px;

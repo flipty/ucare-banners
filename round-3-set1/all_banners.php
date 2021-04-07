@@ -1,7 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="">
 <?php
-$hideFrames = ''; //empty or HIDE  
+$hideFrames = ''; //empty or HIDE
 $hideFinal = '';
 include('../src/timing.php');
 ?>
