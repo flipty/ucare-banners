@@ -26,12 +26,10 @@ $(document).ready(function(){
     }, $textDelay);
 
     $frames.each(function(){
-      var $word = $(this).find('span');
-      $word.each(function(){
+      var $frame = $(this).find('span');
+      $frame.each(function(){
         var $this = $(this);
-        var $offset = 500;
         var $timeline = $this.data('timeline');
-        var $duration = $timeline + $offset;
         setTimeout(function() {
           $this.addClass('active');
         }, $timeline);

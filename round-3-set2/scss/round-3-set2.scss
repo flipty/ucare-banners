@@ -33,6 +33,9 @@ body {
   color: $blue;
   position: relative;
   overflow: hidden;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
   .inner {
     position: relative;
     text-decoration: none !important;
@@ -43,6 +46,7 @@ body {
       background: $white;
       position: relative;
       z-index: 1;
+      border: solid 1px #ccc;
       .logo {
         position: absolute;
         z-index: 2;
@@ -147,8 +151,8 @@ body {
       width: 970px;
       height: 250px;
       .first-frame {
-        width: 970px;
-        height: 250px;
+        width: 968px;
+        height: 248px;
         .logo {
           width: 220px;
           height: 50px;
@@ -184,6 +188,7 @@ body {
             .image {
               img {
                 margin-top: -10px;
+                width: 100px;
               }
             }
             .content {
@@ -257,8 +262,8 @@ body {
       width: 728px;
       height: 90px;
       .first-frame {
-        width: 728px;
-        height: 90px;
+        width: 726px;
+        height: 88px;
         .logo {
           width: 220px;
           height: 50px;
@@ -289,7 +294,7 @@ body {
           left: -728px;
           &.coverup {
             width: 520px;
-            border-bottom-right-radius: 20px;
+            border-bottom-right-radius: 40px;
             display: flex;
             .image {
               img {
@@ -372,8 +377,8 @@ body {
       width: 320px;
       height: 50px;
       .first-frame {
-        width: 320px;
-        height: 50px;
+        width: 318px;
+        height: 48px;
         .logo {
           width: 120px;
           height: 50px;
@@ -404,7 +409,7 @@ body {
           left: -320px;
           &.coverup {
             width: 225px;
-            border-bottom-right-radius: 16px;
+            border-bottom-right-radius: 24px;
             display: flex;
             .image {
               img {
@@ -486,8 +491,8 @@ body {
       width: 300px;
       height: 600px;
       .first-frame {
-        width: 300px;
-        height: 600px;
+        width: 298px;
+        height: 598px;
         .logo {
           width: 220px;
           height: 50px;
@@ -613,8 +618,8 @@ body {
       width: 300px;
       height: 250px;
       .first-frame {
-        width: 300px;
-        height: 250px;
+        width: 298px;
+        height: 248px;
         .logo {
           width: 220px;
           bottom: 16px;
@@ -743,8 +748,8 @@ body {
       width: 160px;
       height: 600px;
       .first-frame {
-        width: 160px;
-        height: 600px;
+        width: 158px;
+        height: 598px;
         .logo {
           height: 50px;
           bottom: 7px;
@@ -774,7 +779,7 @@ body {
           top: -600px;
           &.coverup {
             width: 160px;
-            border-bottom-right-radius: 30px;
+            border-bottom-right-radius: 60px;
             .image {
               img {
                 width: 65px;

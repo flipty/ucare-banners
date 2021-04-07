@@ -1,6 +1,10 @@
 <!doctype html>
 <html class="no-js" lang="">
-
+<?php
+$hideFrames = ''; //empty or HIDE
+$hideFinal = '';
+include('../src/timing.php');
+?>
 <head>
   <script type="text/javascript">
   var clickTag = "https://www.placeholder.here";
@@ -19,7 +23,7 @@
 <div class="banner-container">
 
   <a href="javascript:window.open(window.clickTag)">
-  	<div class="ucareb" id="b970x250" data-text-delay="100" data-logo-delay="4000">
+  	<div class="ucareb" id="b970x250" data-text-delay="<?php echo $set2textDelay; ?>" data-logo-delay="<?php echo $set2logoDelay; ?>">
   		<div class="inner">
 
         <div class="first-frame">
@@ -30,10 +34,10 @@
           </div>
         </div>
 
-  			<div class="frames">
-          <span data-timeline="500" class="coverup">
+  			<div class="frames <?php echo $hideFrames;?>">
+          <span data-timeline="<?php echo $set2coverup; ?>" class="coverup">
             <div class="image">
-              <img src="icon-value.png">
+              <img src="icon-savings.svg">
             </div>
             <div class="content">
               <h3>Could you be getting more for less?</h3>
@@ -42,12 +46,12 @@
           </span>
   			</div>
 
-        <div data-timeline="3000" class="final-frame">
+        <div data-timeline="<?php echo $set2finalFrame; ?>" class="final-frame <?php echo $hideFinal;?>" style="transition: all <?php echo $set2finalFrameSpeed; ?>ms !important">
             <div class="logo-text">
               <div class="logo-hide" data-logo-reveal="500"></div>
               <img src="logo-no-spark-white.svg" alt="ucare">
             </div>
-            <div class="logo-spark inactive">
+            <div class="logo-spark inactive" style="transition: all <?php echo $set2sparkSpeed;?>ms !important">
               <img src="spark.svg" alt="ucare">
             </div>
             <p class="tagline inactive">Better health plans for you</p>
@@ -59,7 +63,7 @@
   </a>
 
   <a href="javascript:window.open(window.clickTag)">
-  	<div class="ucareb" id="b728x90" data-text-delay="100" data-logo-delay="4000">
+  	<div class="ucareb" id="b728x90" data-text-delay="<?php echo $set2textDelay; ?>" data-logo-delay="<?php echo $set2logoDelay; ?>">
   		<div class="inner">
 
         <div class="first-frame">
@@ -70,10 +74,10 @@
           </div>
         </div>
 
-  			<div class="frames">
-          <span data-timeline="500" class="coverup">
+  			<div class="frames <?php echo $hideFrames;?>">
+          <span data-timeline="<?php echo $set2coverup; ?>" class="coverup">
             <div class="image">
-              <img src="icon-value.png">
+              <img src="icon-savings.svg">
             </div>
             <div class="content">
               <h3>Could you be getting more for less?</h3>
@@ -82,12 +86,12 @@
           </span>
   			</div>
 
-        <div data-timeline="3000" class="final-frame">
+        <div data-timeline="<?php echo $set2finalFrame; ?>" class="final-frame <?php echo $hideFinal;?>" style="transition: all <?php echo $set2finalFrameSpeed; ?>ms !important">
             <div class="logo-text">
               <div class="logo-hide" data-logo-reveal="500"></div>
               <img src="logo-no-spark-white.svg" alt="ucare">
             </div>
-            <div class="logo-spark inactive">
+            <div class="logo-spark inactive" style="transition: all <?php echo $set2sparkSpeed;?>ms !important">
               <img src="spark.svg" alt="ucare">
             </div>
             <p class="tagline inactive">Better health plans for you</p>
@@ -99,7 +103,7 @@
   </a>
 
   <a href="javascript:window.open(window.clickTag)">
-  	<div class="ucareb" id="b320x50" data-text-delay="100" data-logo-delay="4000">
+  	<div class="ucareb" id="b320x50" data-text-delay="<?php echo $set2textDelay; ?>" data-logo-delay="<?php echo $set2logoDelay; ?>">
   		<div class="inner">
 
         <div class="first-frame">
@@ -109,10 +113,10 @@
           </div>
         </div>
 
-  			<div class="frames">
-          <span data-timeline="500" class="coverup">
+  			<div class="frames <?php echo $hideFrames;?>">
+          <span data-timeline="<?php echo $set2coverup; ?>" class="coverup">
             <div class="image">
-              <img src="icon-value.png">
+              <img src="icon-savings.svg">
             </div>
             <div class="content">
               <h3>Could you be getting more for less?</h3>
@@ -120,12 +124,12 @@
           </span>
   			</div>
 
-        <div data-timeline="3000" class="final-frame">
+        <div data-timeline="<?php echo $set2finalFrame; ?>" class="final-frame <?php echo $hideFinal;?>" style="transition: all <?php echo $set2finalFrameSpeed; ?>ms !important">
             <div class="logo-text">
               <div class="logo-hide" data-logo-reveal="500"></div>
               <img src="logo-no-spark-white.svg" alt="ucare">
             </div>
-            <div class="logo-spark inactive">
+            <div class="logo-spark inactive" style="transition: all <?php echo $set2sparkSpeed;?>ms !important">
               <img src="spark.svg" alt="ucare">
             </div>
             <p class="tagline inactive">Better health plans for you</p>
@@ -137,7 +141,7 @@
   </a>
 
   <a href="javascript:window.open(window.clickTag)">
-    <div class="ucareb" id="b300x600" data-text-delay="100" data-logo-delay="4000">
+    <div class="ucareb" id="b300x600" data-text-delay="<?php echo $set2textDelay; ?>" data-logo-delay="<?php echo $set2logoDelay; ?>">
       <div class="inner">
 
         <div class="first-frame">
@@ -148,10 +152,10 @@
           </div>
         </div>
 
-        <div class="frames">
-          <span data-timeline="500" class="coverup">
+        <div class="frames <?php echo $hideFrames;?>">
+          <span data-timeline="<?php echo $set2coverup; ?>" class="coverup">
             <div class="image">
-              <img src="icon-value.png">
+              <img src="icon-savings.svg">
             </div>
             <div class="content">
               <h3>Could you be getting more for less?</h3>
@@ -160,7 +164,7 @@
           </span>
         </div>
 
-        <div data-timeline="3000" class="final-frame">
+        <div data-timeline="<?php echo $set2finalFrame; ?>" class="final-frame <?php echo $hideFinal;?>" style="transition: all <?php echo $set2finalFrameSpeed; ?>ms !important">
           <div class="large-spark">
             <img src="spark.svg" alt="ucare">
           </div>
@@ -168,7 +172,7 @@
               <div class="logo-hide" data-logo-reveal="500"></div>
               <img src="logo-no-spark-white.svg" alt="ucare">
             </div>
-            <div class="logo-spark inactive">
+            <div class="logo-spark inactive" style="transition: all <?php echo $set2sparkSpeed;?>ms !important">
               <img src="spark.svg" alt="ucare">
             </div>
             <p class="tagline inactive">Better health plans for you</p>
@@ -180,7 +184,7 @@
   </a>
 
   <a href="javascript:window.open(window.clickTag)">
-    <div class="ucareb" id="b160x600" data-text-delay="100" data-logo-delay="4000">
+    <div class="ucareb" id="b160x600" data-text-delay="<?php echo $set2textDelay; ?>" data-logo-delay="<?php echo $set2logoDelay; ?>">
       <div class="inner">
 
         <div class="first-frame">
@@ -191,10 +195,10 @@
           </div>
         </div>
 
-        <div class="frames">
-          <span data-timeline="500" class="coverup">
+        <div class="frames <?php echo $hideFrames;?>">
+          <span data-timeline="<?php echo $set2coverup; ?>" class="coverup">
             <div class="image">
-              <img src="icon-value.png">
+              <img src="icon-savings.svg">
             </div>
             <div class="content">
               <h3>Could you be getting more for less?</h3>
@@ -203,7 +207,7 @@
           </span>
         </div>
 
-        <div data-timeline="3000" class="final-frame">
+        <div data-timeline="<?php echo $set2finalFrame; ?>" class="final-frame <?php echo $hideFinal;?>" style="transition: all <?php echo $set2finalFrameSpeed; ?>ms !important">
           <div class="large-spark">
             <img src="spark.svg" alt="ucare">
           </div>
@@ -211,7 +215,7 @@
               <div class="logo-hide" data-logo-reveal="500"></div>
               <img src="logo-no-spark-white.svg" alt="ucare">
             </div>
-            <div class="logo-spark inactive">
+            <div class="logo-spark inactive" style="transition: all <?php echo $set2sparkSpeed;?>ms !important">
               <img src="spark.svg" alt="ucare">
             </div>
             <p class="tagline inactive">Better health plans for you</p>
@@ -223,7 +227,7 @@
   </a>
 
   <a href="javascript:window.open(window.clickTag)">
-    <div class="ucareb" id="b300x250" data-text-delay="100" data-logo-delay="4000">
+    <div class="ucareb" id="b300x250" data-text-delay="<?php echo $set2textDelay; ?>" data-logo-delay="<?php echo $set2logoDelay; ?>">
       <div class="inner">
 
         <div class="first-frame">
@@ -233,10 +237,10 @@
           </div>
         </div>
 
-        <div class="frames">
-          <span data-timeline="500" class="coverup">
+        <div class="frames <?php echo $hideFrames;?>">
+          <span data-timeline="<?php echo $set2coverup; ?>" class="coverup">
             <div class="image">
-              <img src="icon-value.png">
+              <img src="icon-savings.svg">
             </div>
             <div class="content">
               <h3>Could you be getting more for less?</h3>
@@ -245,12 +249,12 @@
           </span>
         </div>
 
-        <div data-timeline="3000" class="final-frame">
+        <div data-timeline="<?php echo $set2finalFrame; ?>" class="final-frame <?php echo $hideFinal;?>" style="transition: all <?php echo $set2finalFrameSpeed; ?>ms !important">
             <div class="logo-text">
               <div class="logo-hide" data-logo-reveal="500"></div>
               <img src="logo-no-spark-white.svg" alt="ucare">
             </div>
-            <div class="logo-spark inactive">
+            <div class="logo-spark inactive" style="transition: all <?php echo $set2sparkSpeed;?>ms !important">
               <img src="spark.svg" alt="ucare">
             </div>
             <p class="tagline inactive">Better health plans for you</p>
