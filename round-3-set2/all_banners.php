@@ -20,8 +20,6 @@ include('../src/timing.php');
 
 <body>
 
-<div class="banner-container">
-
   <a href="javascript:window.open(window.clickTag)">
   	<div class="ucareb" id="b970x250" data-text-delay="<?php echo $set2textDelay; ?>" data-logo-delay="<?php echo $set2logoDelay; ?>">
   		<div class="inner">
@@ -264,8 +262,6 @@ include('../src/timing.php');
       </div>
     </div>
   </a>
-
-</div>
 
 <script><?php include('../src/round-3-set2.js');?></script>
 </body>
